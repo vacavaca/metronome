@@ -1,6 +1,6 @@
 Simple metronome
 ================
-Use it here: [annoying.site](https://annoying.site)
+Use it here: [annoying.site](http://annoying.site)
 
 What?
 =====
@@ -8,8 +8,8 @@ It's a metronome.
 
 Why?
 ====
-One day I searched for the metronome and the first page of results
-was full of really bad ones, so I decided to create this.
+One day I was looking for a metronome and the first page of search
+results was full of really bad ones, so I decided to make this simple app.
 
 So what?
 ========

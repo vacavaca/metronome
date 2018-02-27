@@ -5,6 +5,7 @@
 body, html {
     padding: 0;
     margin: 0;
+    height: 100%;
     touch-action: manipulation;
 }
 
@@ -12,6 +13,8 @@ body {
     background-color: #fafafa;
     font-family: 'Open Sans', sans-serif;
     color: #333;
+    min-height: 320px;
+    position: relative;
 }
 
 .clearfix:after {
@@ -25,7 +28,10 @@ body {
 
 .metronome {
     width: 134px;
-    margin: 20vh auto;
+    margin: 0 auto;
+    position: relative;
+    top: 47%;
+    transform: translateY(-50%);
 }
 
 .tempo {
@@ -153,4 +159,22 @@ body {
 
 .toggle--play:focus {
     background: #f4581a;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.about {
+    font-size: 12px;
+    color: #666;
+}
+
+.about:hover {
+    color: #7f7f7f;
 }

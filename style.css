@@ -1,0 +1,156 @@
+* {
+   box-sizing: border-box
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    touch-action: manipulation;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.clearfix:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.metronome {
+    width: 134px;
+    margin: 20vh auto;
+}
+
+.tempo {
+    width: 134px;
+    height: 62px;
+    border: 1px solid #E4E7EB;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    position: relative;
+    line-height: 62px;
+}
+
+.tempo-field {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.tempo-input {
+    color: #333;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tempo-input:focus {
+    outline: none;
+}
+
+.tempo-multiplier {
+    font-size: 20px;
+}
+
+.tempo-bpm {
+    font-size: 14px;
+    color: #e5e8ec;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    line-height: 1;
+}
+
+.button {
+    background-color: #F7F7F7;
+    border: 1px solid #E4E7EB;
+    color: #666;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    user-select: none;
+    webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.06);
+}
+
+.button:hover {
+    background-color: #f2f2f2;
+}
+
+.button:focus {
+    background-color: #e8e8e8;
+}
+
+.button--primary {
+    background-color: #434343;
+    color: #F7F7F7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button--primary:hover {
+    background-color: #363636;
+}
+
+.button--primary:focus {
+    background-color: #262626;
+}
+
+.multiplier {
+    width: 40px;
+    height: 32px;
+    line-height: 20px;
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.multiplier--left {
+    float: left;
+    margin-right: 7px;
+}
+
+.multiplier--right {
+    float: right;
+}
+
+.tap {
+    width: 134px;
+    height: 62px;
+    line-height: 62px;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.toggle {
+    width: 134px;
+    height: 62px;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+.toggle--play {
+    background: #FD5D1E;
+    border: 1px solid #ff4c38;
+    box-shadow: 0 0 50px -11px #FD5D1E;
+}
+
+.toggle--play:hover {
+    background: #fd6a30;
+}
+
+.toggle--play:focus {
+    background: #f4581a;
+}
